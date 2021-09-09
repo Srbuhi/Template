@@ -397,14 +397,31 @@ hr{
     width: 35px;
     height: 35px;
     border: 1px solid black;
-    padding: 6px 10px;
+    padding: 7px 10px;
 }
 
 .para-container {
-    width: 78%;
-    
+    width: 78%;    
 }
 
 .para-container p {
     margin-bottom: 30px;
 }
+
+.social div:first-child {
+    border-right: 0.5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.social div:nth-child(2) {
+    border-right: 0.5px;
+}
+
+.social div:last-child {
+    border-left: 0.5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
