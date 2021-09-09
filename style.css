@@ -379,3 +379,32 @@ hr{
     display: flex;
     background-color: var(--mainColor);
 }
+
+.left {
+    width: 50%;
+    margin-top: 92px;
+    margin-left: 101px;
+    margin-bottom: 97px;
+}
+
+.social {
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.social div {
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    padding: 6px 10px;
+}
+
+.para-container {
+    width: 78%;
+    
+}
+
+.para-container p {
+    margin-bottom: 30px;
+}
